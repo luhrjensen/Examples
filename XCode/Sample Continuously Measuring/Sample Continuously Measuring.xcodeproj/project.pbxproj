@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0578227C1A1C02410065FD5F /* NSKClmtr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0578227B1A1C02410065FD5F /* NSKClmtr.framework */; };
+		1D7C3AB515700BBC0047F39E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7C3AB415700BBC0047F39E /* Cocoa.framework */; };
+		1D7C3ABF15700BBC0047F39E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D7C3ABD15700BBC0047F39E /* InfoPlist.strings */; };
+		1D7C3AC215700BBC0047F39E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7C3AC115700BBC0047F39E /* main.m */; };
+		1D7C3AC515700BBC0047F39E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1D7C3AC315700BBC0047F39E /* Credits.rtf */; };
+		1D7C3AC815700BBC0047F39E /* Sample_Continuously_MeasuringAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D7C3AC715700BBC0047F39E /* Sample_Continuously_MeasuringAppDelegate.mm */; };
+		1D7C3ACB15700BBC0047F39E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D7C3AC915700BBC0047F39E /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EF99AB981664400C00D521CD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0578227B1A1C02410065FD5F /* NSKClmtr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSKClmtr.framework; path = ../../libraries/bin/xcode/NSKClmtr.framework; sourceTree = "<group>"; };
+		1D7C3AB015700BBC0047F39E /* Sample Continuously Measuring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample Continuously Measuring.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D7C3AB415700BBC0047F39E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1D7C3AB715700BBC0047F39E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1D7C3AB815700BBC0047F39E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1D7C3AB915700BBC0047F39E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D7C3ABC15700BBC0047F39E /* Sample Continuously Measuring-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sample Continuously Measuring-Info.plist"; sourceTree = "<group>"; };
+		1D7C3ABE15700BBC0047F39E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D7C3AC015700BBC0047F39E /* Sample Continuously Measuring-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sample Continuously Measuring-Prefix.pch"; sourceTree = "<group>"; };
+		1D7C3AC115700BBC0047F39E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D7C3AC415700BBC0047F39E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1D7C3AC615700BBC0047F39E /* Sample_Continuously_MeasuringAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sample_Continuously_MeasuringAppDelegate.h; sourceTree = "<group>"; };
+		1D7C3AC715700BBC0047F39E /* Sample_Continuously_MeasuringAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Sample_Continuously_MeasuringAppDelegate.mm; sourceTree = "<group>"; };
+		1D7C3ACA15700BBC0047F39E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D7C3AAD15700BBC0047F39E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0578227C1A1C02410065FD5F /* NSKClmtr.framework in Frameworks */,
+				1D7C3AB515700BBC0047F39E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D7C3AA515700BBC0047F39E = {
+			isa = PBXGroup;
+			children = (
+				1D7C3AB315700BBC0047F39E /* Frameworks */,
+				1D7C3AB115700BBC0047F39E /* Products */,
+				1D7C3ABA15700BBC0047F39E /* Sample Continuously Measuring */,
+			);
+			sourceTree = "<group>";
+		};
+		1D7C3AB115700BBC0047F39E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D7C3AB015700BBC0047F39E /* Sample Continuously Measuring.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D7C3AB315700BBC0047F39E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0578227B1A1C02410065FD5F /* NSKClmtr.framework */,
+				1D7C3AB415700BBC0047F39E /* Cocoa.framework */,
+				1D7C3AB615700BBC0047F39E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D7C3AB615700BBC0047F39E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D7C3AB715700BBC0047F39E /* AppKit.framework */,
+				1D7C3AB815700BBC0047F39E /* CoreData.framework */,
+				1D7C3AB915700BBC0047F39E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1D7C3ABA15700BBC0047F39E /* Sample Continuously Measuring */ = {
+			isa = PBXGroup;
+			children = (
+				1D7C3AC615700BBC0047F39E /* Sample_Continuously_MeasuringAppDelegate.h */,
+				1D7C3AC715700BBC0047F39E /* Sample_Continuously_MeasuringAppDelegate.mm */,
+				1D7C3AC915700BBC0047F39E /* MainMenu.xib */,
+				1D7C3ABB15700BBC0047F39E /* Supporting Files */,
+			);
+			path = "Sample Continuously Measuring";
+			sourceTree = "<group>";
+		};
+		1D7C3ABB15700BBC0047F39E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D7C3ABC15700BBC0047F39E /* Sample Continuously Measuring-Info.plist */,
+				1D7C3ABD15700BBC0047F39E /* InfoPlist.strings */,
+				1D7C3AC015700BBC0047F39E /* Sample Continuously Measuring-Prefix.pch */,
+				1D7C3AC115700BBC0047F39E /* main.m */,
+				1D7C3AC315700BBC0047F39E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D7C3AAF15700BBC0047F39E /* Sample Continuously Measuring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D7C3ACE15700BBC0047F39E /* Build configuration list for PBXNativeTarget "Sample Continuously Measuring" */;
+			buildPhases = (
+				1D7C3AAC15700BBC0047F39E /* Sources */,
+				1D7C3AAD15700BBC0047F39E /* Frameworks */,
+				1D7C3AAE15700BBC0047F39E /* Resources */,
+				EF99AB981664400C00D521CD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sample Continuously Measuring";
+			productName = "Sample Continuously Measuring";
+			productReference = 1D7C3AB015700BBC0047F39E /* Sample Continuously Measuring.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D7C3AA715700BBC0047F39E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Klein Instruments";
+			};
+			buildConfigurationList = 1D7C3AAA15700BBC0047F39E /* Build configuration list for PBXProject "Sample Continuously Measuring" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D7C3AA515700BBC0047F39E;
+			productRefGroup = 1D7C3AB115700BBC0047F39E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D7C3AAF15700BBC0047F39E /* Sample Continuously Measuring */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D7C3AAE15700BBC0047F39E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7C3ABF15700BBC0047F39E /* InfoPlist.strings in Resources */,
+				1D7C3AC515700BBC0047F39E /* Credits.rtf in Resources */,
+				1D7C3ACB15700BBC0047F39E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D7C3AAC15700BBC0047F39E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7C3AC215700BBC0047F39E /* main.m in Sources */,
+				1D7C3AC815700BBC0047F39E /* Sample_Continuously_MeasuringAppDelegate.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D7C3ABD15700BBC0047F39E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D7C3ABE15700BBC0047F39E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1D7C3AC315700BBC0047F39E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D7C3AC415700BBC0047F39E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1D7C3AC915700BBC0047F39E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D7C3ACA15700BBC0047F39E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D7C3ACC15700BBC0047F39E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1D7C3ACD15700BBC0047F39E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1D7C3ACF15700BBC0047F39E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../libraries/bin/xcode\"",
+					/Users/kleininstruments/programs/examples/libraries/bin/XCode,
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sample Continuously Measuring/Sample Continuously Measuring-Prefix.pch";
+				INFOPLIST_FILE = "Sample Continuously Measuring/Sample Continuously Measuring-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Klein-Instruments.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1D7C3AD015700BBC0047F39E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../libraries/bin/xcode\"",
+					/Users/kleininstruments/programs/examples/libraries/bin/XCode,
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sample Continuously Measuring/Sample Continuously Measuring-Prefix.pch";
+				INFOPLIST_FILE = "Sample Continuously Measuring/Sample Continuously Measuring-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Klein-Instruments.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D7C3AAA15700BBC0047F39E /* Build configuration list for PBXProject "Sample Continuously Measuring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D7C3ACC15700BBC0047F39E /* Debug */,
+				1D7C3ACD15700BBC0047F39E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D7C3ACE15700BBC0047F39E /* Build configuration list for PBXNativeTarget "Sample Continuously Measuring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D7C3ACF15700BBC0047F39E /* Debug */,
+				1D7C3AD015700BBC0047F39E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D7C3AA715700BBC0047F39E /* Project object */;
+}

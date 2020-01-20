@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Sample Continuously Measuring' target in the 'Sample Continuously Measuring' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
