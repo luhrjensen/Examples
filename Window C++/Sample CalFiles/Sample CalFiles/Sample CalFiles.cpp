@@ -1,7 +1,7 @@
 // Sample CalFiles.cpp : Defines the entry point for the console application.
 //
 
-#include "../../../libraries/bin/headers/KClmtr.h"
+#include "KClmtr.h"
 #include <stdio.h>
 #include "stdafx.h"
 
@@ -21,7 +21,7 @@ int _tmain(int argc, _TCHAR* argv[])
 		printf("Model: '%s'\n", kclmtr.getModel().c_str());
 		
 		//Profile List
-		vector<string> calList = kclmtr.getCalFileList();
+		std::vector<std::string> calList = kclmtr.getCalFileList();
 		for(int i = 0; i < 12; ++i)	
 			printf("%s\n", calList[i].c_str());
 
