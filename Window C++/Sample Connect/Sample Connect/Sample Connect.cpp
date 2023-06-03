@@ -1,6 +1,6 @@
 // Sample Connect.cpp : Defines the entry point for the console application.
 //
-#include "../../../libraries/bin/headers/KClmtr.h"
+#include "KClmtr.h"
 #include <stdio.h>
 #include "stdafx.h"
 #include <conio.h>
